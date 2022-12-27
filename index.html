@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
     <title>Pomodoro by Auslic</title>
 </head>
 <body>
-    
+    <main class="main">
+        <div class="main-container menu">
+            <p>Pomodoro</p>
+            <p>Pausa Curta</p>
+            <p>Pausa Longa</p>
+        </div>
+        <div class="main-container pomodoro">
+            <h1 class="clock" data-clock>a</h1>
+            <input type="button" value="Iniciar" class="button" data-button-start>
+            <input type="button" value="Parar" class="button" data-button-stop>
+        </div>
+    </main>
 </body>
+    <script src="./assets/js/main.js"></script>
 </html>
